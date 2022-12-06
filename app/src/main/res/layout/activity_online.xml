@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_online_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.boxfight.boxfight.Online">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="1dp"
+        android:id="@+id/activity_online_welcome"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Welcome"
+        android:textColor="@color/colorBlueGrey_200"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        />
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_settings_black_24dp"
+        android:background="@color/colorWhite"
+        android:scaleType="fitCenter"
+        android:id="@+id/activity_online_setting"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/activity_online_welcome"
+        android:id="@+id/activity_online_subrel"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorBlue_500"
+            android:id="@+id/activity_online_inviteedt"
+            android:hint="Username...     "
+            android:textSize="20sp"
+            android:maxLength="10"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/activity_online_inviteedt"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/allbutton"
+            android:text="Invite"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/activity_online_invitebtn"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/activity_online_subrel"
+         android:layout_margin="16dp"
+         android:padding="4dp"
+         android:id="@+id/activity_online_recyclerview"
+         >
+      </ListView>
+
+
+</RelativeLayout>

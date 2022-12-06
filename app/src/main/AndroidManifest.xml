@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boxfight.boxfight.boxfight">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.boxfight.boxfight.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/boxfight"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.boxfight.boxfight.Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.boxfight.boxfight.CreateRoom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boxfight.boxfight.JoinRoom"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name="com.boxfight.boxfight.Game"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <receiver
+            android:name="com.boxfight.boxfight.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.boxfight.boxfight.Online"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.boxfight.boxfight.Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boxfight.boxfight.QuickPlay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boxfight.boxfight.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.boxfight.boxfight.Introduction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boxfight.boxfight.Username"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boxfight.boxfight.LANWIFI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boxfight.boxfight.LanGame"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.boxfight.boxfight.GameWithComputer"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

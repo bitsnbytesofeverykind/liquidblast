@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.boxfight.boxfight.CreateRoom">
+        <ImageView
+            style="@style/background"
+            android:id="@+id/activity_create_room_background"
+            android:src="@drawable/player1_sign"
+            />
+    <LinearLayout
+        style="@style/Home_LinearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:orientation="vertical"
+        >
+    <EditText
+        style="@style/create_room_edittext"
+        android:id="@+id/activity_create_room_myusername"
+        android:hint="Enter Your Username.."
+        />
+
+            <EditText
+                style="@style/create_room_edittext"
+                android:id="@+id/activity_create_room_oppousername"
+                android:hint="Enter Opponent Username.."
+                />
+
+
+    </LinearLayout>
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:minHeight="50dp"
+        android:id="@+id/activity_creat_room_timer"
+        ></Spinner>
+
+    <TextView
+            style="@style/HomeTextView"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/activity_create_room_playtv"
+            android:layout_margin="20dp"
+            />
+
+</RelativeLayout>

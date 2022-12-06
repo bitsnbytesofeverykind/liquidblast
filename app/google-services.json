@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "897565035810",
+    "firebase_url": "https://boxfight-auth.firebaseio.com",
+    "project_id": "boxfight-auth",
+    "storage_bucket": "boxfight-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897565035810:android:56e0005cbcdfeb8c",
+        "android_client_info": {
+          "package_name": "com.example.shivamvyas.boxfightv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897565035810-homqod5t82ekusodnd56i1vr422lmggm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivamvyas.boxfightv2",
+            "certificate_hash": "64107b8bbd23c5e66f2b9f65129a5e3491d09615"
+          }
+        },
+        {
+          "client_id": "897565035810-srva3r382lqu6trlqabheq1aorlb7f72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzRxE5O2pRRgsLP2_eVdad-0vDcoUYgUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897565035810-srva3r382lqu6trlqabheq1aorlb7f72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897565035810:android:abeeb8bfcdba70d8",
+        "android_client_info": {
+          "package_name": "com.boxfight.shivamvyas.boxfightv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897565035810-elcevh3l5gfukoibsk1qg0f2e9baodto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boxfight.shivamvyas.boxfightv2",
+            "certificate_hash": "e56a4f4b8521909adb82ea59dc6d3e1ad2506a69"
+          }
+        },
+        {
+          "client_id": "897565035810-1ssq1hmat868p00raf6f15i1nbj6ak2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boxfight.shivamvyas.boxfightv2",
+            "certificate_hash": "64107b8bbd23c5e66f2b9f65129a5e3491d09615"
+          }
+        },
+        {
+          "client_id": "897565035810-srva3r382lqu6trlqabheq1aorlb7f72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzRxE5O2pRRgsLP2_eVdad-0vDcoUYgUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897565035810-srva3r382lqu6trlqabheq1aorlb7f72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897565035810:android:19be9f2e158b850f",
+        "android_client_info": {
+          "package_name": "com.boxfight.boxfight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897565035810-eblfaq6ifmtis09liqvg0gu7tqgrletn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boxfight.boxfight",
+            "certificate_hash": "7d16dcc97cc4e1d670d6f0d4d53183c64bfc2fdf"
+          }
+        },
+        {
+          "client_id": "897565035810-7s9tbs10sloajcqj6i5hjhtd3sniutud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boxfight.boxfight",
+            "certificate_hash": "e56a4f4b8521909adb82ea59dc6d3e1ad2506a69"
+          }
+        },
+        {
+          "client_id": "897565035810-14649v6guevhfpfut5u2kn56veqkavo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boxfight.boxfight",
+            "certificate_hash": "64107b8bbd23c5e66f2b9f65129a5e3491d09615"
+          }
+        },
+        {
+          "client_id": "897565035810-srva3r382lqu6trlqabheq1aorlb7f72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzRxE5O2pRRgsLP2_eVdad-0vDcoUYgUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897565035810-srva3r382lqu6trlqabheq1aorlb7f72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

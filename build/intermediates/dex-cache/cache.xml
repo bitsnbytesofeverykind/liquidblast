@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-11.8.0_a82d67e4ec352527ff2241a639870cb3512fe56d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-11.8.0_1f67eb5bc55be4538b5b658399c0c411dae0f01d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-27.0.2_32a2c379ca9cd3624a78277031a12f410169f79d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-27.0.2_7398b675a64bec83aab1404532bc1285aad55f85\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="c5bc72ad3250d065128d1d7514279be703e57bd0">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-11.8.0_b1a5424e208e7fb0d7e91c4f317d8c98fe333924\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-27.0.2_5f78a14ead843122ffd9f7dea3c6b1886d1a8aaf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="765c765383c7b244deb2b298916c0082b0ba8488">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e6c7a06d9b75da34a69082c299b01a19ea51c34\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\android.arch.lifecycle-runtime-1.0.3_48ea1fff471c4d7387944386166e024c40088531\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_a81dc2cb6facc7ecebc3fe4dc8ddbd94c09fa2f6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_bef2885f1358cc209da8061ec3e38cd21aad1953\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-11.8.0_0d4137daeb8d5c3e9150f1cba25e8426c149c142\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-11.8.0_652c398c63af9eebbbb98237bfaad2b82a205ce0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.airbnb.android\lottie\2.5.0-beta1\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="56cbbe4a504a54ff33f88776b406bca892ff9e9e">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.airbnb.android-lottie-2.5.0-beta1_0344ba51b8a7cc4f65ad31bc6cea89f93b4b0ee5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="cbb26a4f659b17abc1f75ff735a607aa299697ac">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-26.0.0_898983152acf981f28cdbf697c127d0150547e0c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="ebd68cf322530b8069e5916e096beda5e8e8d08b">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_922e6df5f02e4c969188e4640bbb980ec8d8ec44\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-11.8.0_78b25d9fa26d3fae5454fdf1027cdc599565df17\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="1b982cc8b5ab6f788690238dbe3ac3bb19f88b1a">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-11.8.0_7409aa11af36d25db55700de4268a1f75f109598\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-27.0.2_f62ac510f524857acc2b0589278e7bdeb2af883d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.3\7d7f60c4783872861222166f6164215f8951c7b1\common-1.0.3.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.3_edd7fab5f739721bbe33adccdd8df996001e5085\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\transition\26.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="dd2e7a567260ca4e40c09ba330f4f2d318660554">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-26.0.0_29b1dd7c89e4d899dd121251ef717c6df0f2bb0c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-26.0.0_b108eb7b8c3ced9c6efd1a5aca3bac667efc3f72\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-27.0.2_7895539a7a5b20a64b301d5ee775e93d385f8301\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_3cf55a0a2a532ec45c20ec85e37bd542d6d0fcd3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-27.0.2_d7d1af1e49bc19e29924526d74d737f0255a3206\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="0a23c4daa97697118d96f2b09d1dbaf9ea943d8d">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-11.8.0_e281228bbf86d45274a4db40c81f727f33f4c0d8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-11.8.0_de39fdb086468defadf16cd05506eb87ca5c5364\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-11.8.0_81173fc71c082deca6fbc14a7c6bc51e355862fb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\design\26.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="d30ac0c26495d7264529e333cec806eec64dd6f3">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-26.0.0_a4af095ea7af0dec0817be3b738304bd2acbf1b1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.2\b9ef4342c934a1a8b107506273dc8061662a322\support-annotations-27.0.2.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-27.0.2_4a4ffc5dc14484ff8783dd7e4573f4a0968c666d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="ed04a0ae7198b0d5d0e965d6afdb0fe784dcfbee">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-11.8.0_2d9e3a66689786edcea145ad218b8713e288463b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="6746a3078625563a9eb381920f34e47ccd6bab87">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-11.8.0_0c87e218c8fcadec61321552fc6f9bbbbad9e020\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-27.0.2_d58f88bc0f4f4704e1657f000140fb683aca9c90\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="df733e6865d662899ec247e8c3dbff3e0961b8a7">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-26.0.0_d401e9b5a2c29778c70f24fcb1102f37036e523a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-api-phone\11.8.0\jars\classes.jar"
+        jumboMode="true"
+        revision="26.0.1"
+        sha1="fe94ced585bffcf3c7f788a294cc54e6785544ac">
+        <dex dex="C:\Users\SHIVAM VYAS\Documents\Box\BoxFightv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-api-phone-11.8.0_74d09dbf5bd98c006e98fe10040e250da3248c0c\classes.dex" />
+    </item>
+
+</items>

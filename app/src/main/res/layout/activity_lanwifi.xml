@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.boxfight.boxfight.LANWIFI">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beta Mode"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:text="*Press Host if you created hotspot otherwise connect via wifi and press Join"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <Button
+        style="@style/HomeTextView"
+        android:layout_centerInParent="true"
+        android:text="Host"
+        android:id="@+id/activity_lanwifi_hostbtn"
+        android:layout_above="@+id/activity_lanwifi_joinbtn"
+        />
+    <Button
+        style="@style/HomeTextView"
+        android:text="Join"
+        android:id="@+id/activity_lanwifi_joinbtn"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>

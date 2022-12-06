@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_game_rel"
+    android:background="#FFFFFF"
+    tools:context="com.boxfight.boxfight.Game">
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/exit"
+        android:id="@+id/activity_game_exit"
+        android:background="#FFFFFF"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+     />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_game_mainlinear"
+    android:layout_below="@+id/activity_game_exit"
+>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:id="@+id/activity_game_dashboard"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="@drawable/namebackground"
+                android:layout_margin="2dp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/activity_game_playername"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/activity_game_player1_indicator"
+                android:background="@drawable/player_deactive_indicator"
+
+                />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/activity_game_player1_indicator"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/namep1sign"
+                />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="3dp"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center"
+                android:scaleType="centerCrop"
+                android:id="@+id/activity_game_animation"
+                android:visibility="gone"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/namebackground"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="2dp"
+                android:id="@+id/activity_game_opponentplayername"
+
+                />
+
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/activity_game_player2_indicator"
+                android:background="@drawable/player_deactive_indicator"
+                />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/activity_game_player2_indicator"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/namep2sign"
+                />
+
+        </RelativeLayout>
+
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:id="@+id/activity_game_sound"
+            android:src="@drawable/ic_volume_up_black_24dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:background="#CFD8DC"
+            android:id="@+id/activity_game_introTv"
+            android:text="Hi"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone"
+            />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="30"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="0dp"
+    android:background="@drawable/linearlayoutbackgroundcolor"
+    >
+
+    <LinearLayout
+        style="@style/Game_LinearLayout"
+        android:background="@drawable/linearlayoutbackgroundcolor"
+        >
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno1"
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn11"
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn12"
+                />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn13"
+                />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn14"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn15"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn16"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn17"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn18"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn19"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></View>
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno2"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn21"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn22"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn23"
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn24"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn25"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn26"
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn27"
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn28"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn29"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></View>
+
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno3"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn31"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn32"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn33"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn34"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn35"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn36"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn37"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn38"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn39"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+    <LinearLayout
+        style="@style/Game_LinearLayout"
+        android:background="@drawable/linearlayoutbackgroundcolor"
+        >
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno4"
+
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn41"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn42"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn43"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn44"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn45"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn46"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn47"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn48"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn49"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></View>
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno5"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn51"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn52"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn53"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn54"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn55"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn56"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn57"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn58"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn59"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></View>
+
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno6"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn61"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn62"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn63"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn64"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn65"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn66"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn67"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn68"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn69"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <LinearLayout
+        style="@style/Game_LinearLayout"
+        android:background="@drawable/linearlayoutbackgroundcolor"
+        >
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno7"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn71"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn72"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn73"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn74"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn75"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn76"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn77"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn78"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn79"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></View>
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno8"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn81"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn82"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn83"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn84"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn85"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn86"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn87"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn88"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn89"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></View>
+
+        <TableLayout
+            style="@style/Game_TableLayout"
+            android:id="@+id/activity_game_boxno9"
+
+            >
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn91"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn92"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn93"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn94"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView1_2_4_5"
+                    android:id="@+id/activity_game_btn95"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView3_6"
+                    android:id="@+id/activity_game_btn96"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/Game_TableRow"
+                >
+
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn97"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView7_8"
+                    android:id="@+id/activity_game_btn98"
+
+                    />
+                <TextView
+                    style="@style/Game_TextView"
+                    android:id="@+id/activity_game_btn99"
+
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/selected_repeat"
+        ></View>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
